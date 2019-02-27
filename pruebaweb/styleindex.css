@@ -1,9 +1,11 @@
 main{
-    background-color:darkgrey;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration-color: white;
-    color: white;
-    
+    color: white;  
+}
+
+fieldset{
+    background-color: darkgrey;
 }
 
 legend{
