@@ -13,6 +13,18 @@ legend{
 
 }
 
+input{
+    margin-left: 5px;
+}
+
+#boton{
+    margin-left: 195px;
+}
+
+#input1{
+    margin-left: 28px;
+}
+
 a{
     font-style: italic;
 }
