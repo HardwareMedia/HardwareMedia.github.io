@@ -4,6 +4,17 @@ main{
     color: white;  
 }
 
+#imagenTitulo{
+    float: left;
+    width: 130px;
+
+}   
+
+hr{
+    margin-top: 60px;
+
+}
+
 fieldset{
     background-color: darkgrey;
 }
@@ -30,15 +41,13 @@ a{
 }
 
 body{
-    background-color: transparent;
-    background-image: url("http://autoescuelalarasa.es//logo.png");
-    background-size: contain;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBg0IBwgNDQkFDQ8FBQ0NBQ8NCQUKFBUWFhQRExMYHCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUNFQUFDisZExkrLSsrKysrKysrKysrLTcrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAQAGA//EABYQAQEBAAAAAAAAAAAAAAAAAAABAv/EABgBAQEBAQEAAAAAAAAAAAAAAAECAAUG/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/APNFR6F4ZKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEVHRcFKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEVHRcFKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEVHRcFKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEVHRcFKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEVHRcFKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEVHRcFKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEVHRcFKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEVHRcFKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEVHRcFKlWpWKJVSgiioxSpVqUKGotQEai1ARqValCoNGlRoVEo0qNCho0qNColGlRoMGiVEKg0aVGhUQaQ0KEaQ0KFKqVKoNDR0NBQVKtShTvEZnRcFKlZmKJWYEUZmKVKzBQ1GYEajMCNSswVBo1mColGswUNGswVEo1mBg0WYKg0arBUEazBQjWYKFKzJVBoaZgoKlZgp//9k=");
+    background-size: cover;
 }
 
-h1{
+#titulo{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: oblique;
-    color: darkred;
+    color: darkorange;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 
 }
@@ -49,10 +58,20 @@ h1{
 }
 
 #calle{
-    float: right;
-    justify-content: right;
+    float: left;
+    justify-content: left;
     border-color: tomato;
-    color: blue;     
+    color: blue;
+    margin-top: 30px;
+    width: 300px;
+    padding-left:  10px;
+    padding-right: 10px;
+    border: 1px solid darkgrey;        
+    background-color: darkgrey;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-color: black;
+    
 }
 
 a{
