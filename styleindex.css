@@ -8,11 +8,25 @@ main{
     float: left;
     width: 130px;
 
-}   
+}
+
+#barra{
+    color: darkorange;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+#alumnosBarra{
+    float: right
+}
+
 
 hr{
     margin-top: 60px;
 
+}
+
+#CierreSesion{
+    float: right;
 }
 
 fieldset{
