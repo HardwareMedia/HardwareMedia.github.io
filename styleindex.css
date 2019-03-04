@@ -7,7 +7,7 @@ main{
 #imagenTitulo{
     float: left;
     width: 130px;
-
+    margin-inline-end: 20px;
 }
 
 ul{
@@ -18,13 +18,13 @@ ul{
 li{
      display: inline;
    text-align: center;
-   margin: 0 10px 0 0;
+   margin: 0 50px 0 0;
 }
 
 #barra{
     color: darkorange;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-    box
+
 }
 
 
@@ -69,13 +69,14 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: darkorange;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-
+        
 }
+
 
 #registro{
     float: left;
     justify-content: left;
-
+    padding: 60px 30px;  
 }
 
 #calle{
@@ -137,4 +138,5 @@ a:hover{
     -webkit-border-radius: 10px;
     border-radius: 10px;
     border-color: black;
+    margin-bottom: 40px;
 }
