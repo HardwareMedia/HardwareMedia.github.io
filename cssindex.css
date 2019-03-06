@@ -14,7 +14,6 @@ html{
 
 
 #imagenLogo{
-    
     float: left;
     width: 200px;
     margin-inline-end: 30px;   
@@ -36,17 +35,29 @@ header{
     color: grey;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
     font-style: normal;
-    padding: 25px 0px 0 0;
+    padding: 30px 0px 0 0;
     
     
 }
 
-#barraSuperior a{
+#barraSuperior ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+#barraSuperior ul li{
+    position: relative;
+    display: inline;
+  text-align: center;
+  margin: 0 50px 0 0;
+}
+
+#barraSuperior ul a{
     color: grey;
     text-decoration: none;
 }
 
-#barraSuperior a:hover{
+#barraSuperior ul a:hover{
     font-style: normal;
     color: red;
     text-shadow: black -1px 1px, black -2px 2px, black -3px 3px, black -4px 4px, black -5px 5px;
@@ -54,19 +65,43 @@ header{
     text-decoration: none;
 }
 
-ul{
-    list-style-type: none;
-    text-align: center;
-}
-
-li{
-    display: inline;
-  text-align: center;
-  margin: 0 50px 0 0;
-  
-}
-
-#siguenos{
+#twitter{
     float: right;
+    width: 50px;
+    margin-inline-end: 30px; 
+    padding-bottom: 10px;
 }
 
+#barraSuperior ul ul {
+    margin-top: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:white;
+    padding: 5px 10px 5px 0px;
+    text-align: center;
+   }
+   
+   /* items del menu desplegable */
+   
+#barraSuperior ul ul li {
+    float:none;
+    width:150px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+#barraSuperior ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+#barraSuperior ul li:hover > ul {
+    display:block;
+   }
