@@ -14,16 +14,17 @@ html{
 
 
 #imagenLogo{
-    border-style: solid;
-    border-width: 4px;
-    border-color: black;
+    
     float: left;
     width: 200px;
     margin-inline-end: 30px;   
 }
 
 header{
-        background: rgba(0,0,0,0.9);
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+        background: white;
         width: 100%;
         position: fixed;
         z-index: 100;
@@ -32,11 +33,25 @@ header{
 
 #barraSuperior{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: darkorange;
+    color: grey;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-    font-style: italic;
-    padding: 30px 0px 0 0;
+    font-style: normal;
+    padding: 25px 0px 0 0;
     
+    
+}
+
+#barraSuperior a{
+    color: grey;
+    text-decoration: none;
+}
+
+#barraSuperior a:hover{
+    font-style: normal;
+    color: red;
+    text-shadow: black -1px 1px, black -2px 2px, black -3px 3px, black -4px 4px, black -5px 5px;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
 
 ul{
