@@ -1,4 +1,5 @@
 *{
+    font-family:Kiona-Regular;
     padding: 0;
     margin: 0;
 }
@@ -77,24 +78,28 @@ header{
 }
 
 #barraSuperior ul ul {
-    margin-top: 0px;
+    margin-top: 0px; 
     border-style: solid;
-    border-color: black;
-    border-width: 3px;
+    border-color: darkred;
+    border-top-width: 35px;
     display:none;
     position:absolute;
     top:100%;
     left:0;
     background:white;
-    padding: 5px 10px 5px 0px;
-    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    padding-inline-start: 20px;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    line-height: 50px;
    }
    
    /* items del menu desplegable */
    
 #barraSuperior ul ul li {
     float:none;
-    width:150px
+    width:150px;
    }
    
    /* enlaces de los items del menu desplegable */
@@ -109,3 +114,22 @@ header{
 #barraSuperior ul li:hover > ul {
     display:block;
    }
+
+#texto{
+    text-decoration-color: white;
+    color:white;
+    padding-top: 120px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+fieldset{
+    background-color: darkgrey;
+    padding-bottom: 800px;
+}
+
+legend{
+     margin-left: 50px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}   
