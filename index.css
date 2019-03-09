@@ -48,13 +48,17 @@ header{
 #barraSuperior ul{
     list-style-type: none;
     text-align: center;
+    
+    
 }
 
 #barraSuperior ul li{
     position: relative;
     display: inline;
-  text-align: center;
-  margin: 0 3% 0 0;
+    text-align: center;
+    margin: 0 3% 0 0;
+    
+
 }
 
 #barraSuperior ul a{
