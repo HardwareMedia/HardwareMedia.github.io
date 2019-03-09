@@ -9,7 +9,7 @@ p{
 }
 
 html{
-    background-image: url("https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2017/05/02.jpg");
+    background-color: darkgrey;
 }
 
 
@@ -122,7 +122,7 @@ header{
 }
 
 fieldset{
-    background-color: darkgrey;
+    background-color: white;
     padding-bottom: 800px;
 }
 
