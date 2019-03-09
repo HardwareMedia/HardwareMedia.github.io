@@ -64,7 +64,7 @@ header{
 
 #barraSuperior ul a:hover{
     font-style: normal;
-    color: red;
+    color: darkred;
     letter-spacing: 1px;
     text-decoration: none;
 }
