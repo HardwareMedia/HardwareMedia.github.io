@@ -1,0 +1,137 @@
+*{
+    font-family:Kiona-Regular;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+html{
+    background-color: dimgrey;
+}
+
+
+
+#imagenLogo{
+    float: left;
+    width: 200px;
+    margin-inline-end: 30px;
+    margin-left: 10px; 
+    margin-top: 15px;  
+}
+
+header{
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+        background: white;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+
+    }
+
+@font-face {
+        font-family: Kiona-Regular;
+        src: url("https://drive.google.com/open?id=1ehXD-ctB3ZVQmnTqPwsnNgKfye6x6vOI") format("truetype");
+}
+
+#barraSuperior{
+    font-family: Kiona-Regular;
+    color: black;
+    font-style: normal;
+    padding: 20px 0px 0 0;  
+}
+
+#barraSuperior ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+#barraSuperior ul li{
+    position: relative;
+    display: inline;
+  text-align: center;
+  margin: 0 50px 0 0;
+}
+
+#barraSuperior ul a{
+    color: black;
+    text-decoration: none;
+}
+
+#barraSuperior ul a:hover{
+    font-style: normal;
+    color: darkred;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#twitter{
+    float: right;
+    width: 50px;
+    margin-inline-end: 30px; 
+    padding-bottom: 20px;
+}
+
+#barraSuperior ul ul {
+    margin-top: 0px; 
+    border-style: solid;
+    border-color: darkred;
+    border-top-width: 35px;
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:white;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    padding-inline-start: 20px;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    line-height: 50px;
+   }
+   
+   /* items del menu desplegable */
+   
+#barraSuperior ul ul li {
+    float:none;
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+#barraSuperior ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */   
+   
+#barraSuperior ul li:hover > ul {
+    display:block;
+   }
+
+#texto{
+    text-decoration-color: white;
+    color:white;
+    padding-top: 120px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+fieldset{
+    background-color: white;
+    padding-bottom: 800px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+legend{
+     margin-left: 50px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-size: 30px;
+}   
