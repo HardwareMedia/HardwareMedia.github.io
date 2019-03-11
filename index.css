@@ -2,6 +2,7 @@
     font-family:Kiona-Regular;
     padding: 0;
     margin: 0;
+    font-size: 30px;
 }
 
 p{
@@ -145,7 +146,7 @@ legend{
 }
 
 .contadorVisitas{
-    padding-left: 10px;
-    block-size: 25px;
+    padding-left: 2%;
+    block-size: 3%;
 }
 
