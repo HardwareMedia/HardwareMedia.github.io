@@ -143,3 +143,9 @@ legend{
 .Noticia1{
     padding: 5% 10% 10% 10%;
 }
+
+.contadorVisitas{
+    padding-left: 10px;
+    block-size: 25px;
+}
+
