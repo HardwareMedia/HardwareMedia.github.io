@@ -150,3 +150,13 @@ legend{
     block-size: 3%;
 }
 
+body::-webkit-scrollbar{
+    width: 7px;
+    background: dimgrey;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: darkred;
+    border-radius: 10px;
+}
+
