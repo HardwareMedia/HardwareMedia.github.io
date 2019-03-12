@@ -154,14 +154,11 @@ body::-webkit-scrollbar-thumb{
 
 @media screen and (max-width:600px) {
     
-.BackplateVerde img{
-    float: left;
-    padding-top: 0%;
-    margin-left: 5%;
-    width: 50px;
-    align-content: center;
-    
+fieldset{
+    size: 400px;
 }
+
+
 
 }
 
