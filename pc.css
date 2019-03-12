@@ -9,7 +9,7 @@ p{
 }
 
 html{
-    background-color: dimgrey;
+    background-image: url("https://pbs.twimg.com/media/D1eTNt2X4AAzLxr.jpg:large");
 }
 
 
@@ -173,28 +173,29 @@ body::-webkit-scrollbar-thumb{
     margin-left: 10%;
 }
 
+.backplate1{
+    align-content: center;
+    float:left;
+}
+
 .textoLateral{
+    float:right;
     position: relative;
-    font-size: 190%;
-    word-spacing: 2px;
-    line-height: 320%;
-    margin-left: 70%;
+    font-size: 150%;
+    padding-left: 8%;
+    padding-top: 10%;
+    line-height: 200%;
 }
 
 .correo{
+    padding-left: 2%;
     font-weight: bold;
-    position: relative;
     font-size: 200%;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-    line-height: 400%;
-    margin-inline-start: 5%;
-    float: left;
-}
+    }
 
-.twitter1{
-   margin-left: 60%;
-   margin-top: 10%;
+.twitter-tweet{
+   margin-left: 15%;
+   padding-top: 120%;
 }
 
 hr{
