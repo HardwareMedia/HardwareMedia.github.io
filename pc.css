@@ -152,13 +152,29 @@ body::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 
+@media screen and (max-width:600px) {
+    
+.BackplateVerde img{
+    float: left;
+    padding-top: 0%;
+    margin-left: 5%;
+    width: 50px;
+    align-content: center;
+    
+}
+
+}
+
 .BackplateVerde img{
     float: left;
     padding-top: 0%;
     margin-left: 5%;
     width: 60%;
     align-content: center;
+    
 }
+
+
 
 .BackplateVerde{
     margin-right: 5%;
