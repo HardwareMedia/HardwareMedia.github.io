@@ -117,9 +117,8 @@ header{
     display:block;
    }
 
-#texto{
-    text-decoration-color: white;
-    color:white;
+.caja{
+    color: white;
     padding-top: 7%;
     margin-left: 25%;
     margin-right: 25%;
@@ -140,6 +139,66 @@ legend{
     font-size: 200%;
 }   
 
-.Noticia1{
-    padding: 5% 10% 10% 10%;
+
+
+body::-webkit-scrollbar{
+    width: 7px;
+    background: dimgrey;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: darkred;
+    border-radius: 10px;
+}
+
+.BackplateVerde img{
+    float: left;
+    padding-top: 0%;
+    margin-left: 5%;
+    width: 60%;
+}
+
+.BackplateVerde{
+    margin-right: 5%;
+    color:black;
+}
+
+.BackplateVerde h3{
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    font-size: 190%;
+    color: green;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    margin-left: 10%;
+}
+
+.textoLateral{
+    position: relative;
+    font-size: 190%;
+    word-spacing: 2px;
+    line-height: 320%;
+    margin-left: 70%;
+}
+
+.correo{
+    font-weight: bold;
+    position: relative;
+    font-size: 200%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 400%;
+    margin-inline-start: 5%;
+    float: left;
+}
+
+.twitter-tweet{
+    margin-left: 10%;
+}
+
+hr{
+    margin-top: 5%;
+    color: black;
+    border-style: solid;
+    border-width: 2px; 
 }

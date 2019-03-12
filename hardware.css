@@ -143,3 +143,13 @@ legend{
 .Noticia1{
     padding: 5% 10% 10% 10%;
 }
+
+body::-webkit-scrollbar{
+    width: 7px;
+    background: dimgrey;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: darkred;
+    border-radius: 10px;
+}
