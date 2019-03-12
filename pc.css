@@ -192,8 +192,9 @@ body::-webkit-scrollbar-thumb{
     float: left;
 }
 
-.twitter-tweet{
-    margin-left: 10%;
+.twitter1{
+   margin-left: 60%;
+   margin-top: 10%;
 }
 
 hr{
