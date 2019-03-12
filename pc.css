@@ -45,10 +45,30 @@ header{
     padding: 1% 0 0 0;  
 }
 
+
 @media screen and (max-width:600px){
     header{
-        size: 100px;
+        size: 10%;
     }
+
+    nav{
+        font-size: 25%;
+    }
+
+
+    main{
+        size: 25%;
+        font-size: 25%;
+    }
+
+    .caja img{
+        width: 10px;
+    }
+    
+    .twitter-tweet{
+        width: 10px;
+    }
+
 }
 
 #barraSuperior ul{
@@ -131,7 +151,7 @@ header{
 }
 
 fieldset{
-    size: 960px;
+    size: 100%;
     background-color: white;
     padding-bottom: 100%;
     border-style: solid;
@@ -156,16 +176,6 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
     background: darkred;
     border-radius: 10px;
-}
-
-@media screen and (max-width:600px) {
-    
-fieldset{
-    size: 400px;
-}
-
-
-
 }
 
 .BackplateVerde img{
