@@ -125,6 +125,7 @@ header{
 }
 
 fieldset{
+    size: 960px;
     background-color: white;
     padding-bottom: 100%;
     border-style: solid;
@@ -156,6 +157,7 @@ body::-webkit-scrollbar-thumb{
     padding-top: 0%;
     margin-left: 5%;
     width: 60%;
+    align-content: center;
 }
 
 .BackplateVerde{
@@ -173,10 +175,7 @@ body::-webkit-scrollbar-thumb{
     margin-left: 10%;
 }
 
-.backplate1{
-    align-content: center;
-    float:left;
-}
+
 
 .textoLateral{
     float:right;

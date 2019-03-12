@@ -126,6 +126,7 @@ header{
 }
 
 fieldset{
+    size: 960px;
     background-color: white;
     padding-bottom: 100%;
     border-style: solid;
