@@ -67,6 +67,7 @@ header{
     }
 
     fieldset{
+        margin-top: 5%;
         width: 30%;
         max-width: 300px;
     }
@@ -86,6 +87,10 @@ header{
         padding-bottom: 0px;
         font-size: 75%; 
         max-width: 400px;
+    }
+    
+    h2{
+        font-size:70%;
     }
 
 }
@@ -230,8 +235,7 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     font-size: 190%;
     color: green;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-    margin-left: 10%;
+     margin-left: 10%;
 }
 
 
