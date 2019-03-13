@@ -57,8 +57,9 @@ header{
 
 
     main{
+        line-height: 150%;
         size: 25%;
-        font-size: 40%;
+        font-size: 50%;
     }
     
     legend{
@@ -82,6 +83,7 @@ header{
     }
 
     .BackplateVerde{
+        padding-bottom: 0px;
         font-size: 75%; 
         max-width: 400px;
     }
@@ -168,6 +170,7 @@ header{
 }
 
 fieldset{
+    margin-left: 2%;
     size: 100%;
     background-color: white;
     padding-bottom: 100%;
@@ -248,8 +251,4 @@ body::-webkit-scrollbar-thumb{
     font-size: 200%;
     }
 
-.BackplateVerde{
-    
-
-}
 
