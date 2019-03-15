@@ -32,11 +32,12 @@ html{
     nav{
         font-size: 25%;
         width: fit-content;
+        height: fit-content;
     }
 
     
     legend{
-        font-size: 40%;
+        font-size: 150%;
     }
 
     .caja{
@@ -59,7 +60,7 @@ html{
     }
     
     h2{
-        font-size:70%;
+       
     }
 
 }
@@ -84,7 +85,8 @@ header{
         width: 100%;
         position: fixed;
         z-index: 100;
-
+    font-weight: bold;
+    font-size: 150%;
     }
 
 
@@ -189,7 +191,7 @@ body::-webkit-scrollbar-thumb{
     block-size: 3%;
 }
 
-/* Texto principal */
+/* Caja principal */
 
 .caja{
     text-decoration-color: white;
@@ -212,8 +214,12 @@ fieldset{
 legend{
      margin-left: 8%;
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-    font-size: 200%;
+    font-size: 250%;
 }   
+
+/*====================================*/
+
+/* Noticias */
 
 .Noticia1{
     padding: 5% 10% 10% 10%;
