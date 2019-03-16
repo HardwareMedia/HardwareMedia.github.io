@@ -28,7 +28,6 @@ html{
         font-size: 20%;
         width: fit-content;
     }
-
     
     legend{
         font-size: 75%;
@@ -174,7 +173,6 @@ body::-webkit-scrollbar-thumb{
 fieldset{
     size: 960px;
     background-color: white;
-    padding-bottom: 100%;
     border-style: solid;
     border-color: black;
     border-width: 4px;
@@ -192,7 +190,24 @@ legend{
 /* Noticias */
 
 .Noticia1{
+    font-size: 180%;
     padding: 5% 10% 10% 10%;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imagenLogoNoticia1{
+    margin: 5% 5% 5% 10%;
+    width: 80%;
+}
+
+.Noticia1correo{
+    margin-bottom: 10%;
+    font-size: 180%;
+    color: red;
+    font-weight: bold;
+    text-align: center;
 }
 
 /*====================================*/
