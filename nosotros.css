@@ -24,7 +24,6 @@ html{
 /* Pagina Responsive */
 
 @media screen and (max-width:600px){
-    
     nav{
         font-size: 20%;
         width: fit-content;
@@ -155,13 +154,6 @@ body::-webkit-scrollbar-thumb{
 
 /*====================================*/
 
-/* Contador Visitas */
-
-.contadorVisitas{
-    padding-left: 2%;
-    block-size: 3%;
-}
-
 /* Caja principal */
 
 .caja{
@@ -192,7 +184,17 @@ legend{
 
 /* Noticias */
 
+.Noticia1{
+    font-size: 150%;
+    padding: 5% 10% 10% 10%;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
 
-
+.imagenLogoNoticia1{
+    margin: 5% 5% 5% 10%;
+    width: 80%;
+}
 /*====================================*/
 
