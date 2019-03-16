@@ -32,6 +32,10 @@ html{
     legend{
         font-size: 75%;
     }
+
+    .separar{
+        display: block;
+    }
 }
 
 /*======================================*/
