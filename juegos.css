@@ -62,6 +62,7 @@ header{
 }
 
 .barraSuperior ul{
+    padding-right: 3%;
     list-style-type: none;
     text-align: center;
     
