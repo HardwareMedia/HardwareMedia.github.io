@@ -11,7 +11,9 @@ p{
 }
 
 html{
-    background-image: url("https://pbs.twimg.com/media/D1eTNt2X4AAzLxr.jpg:large");
+    background-image: url("images/lorenzo-herrera-1383917-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*======================================*/
