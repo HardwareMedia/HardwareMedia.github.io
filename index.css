@@ -30,6 +30,14 @@ body{
     body{
         background-repeat: round;
     }
+
+    .cajaIzquierda{
+        display:none;
+    }
+
+    .cajaCentral{
+        margin-left: 35%;
+    }
 }    
 
 /*======================================*/
@@ -141,29 +149,58 @@ header{
 
 /* Barra scroll lateral */
 
-body::-webkit-scrollbar{
+*::-webkit-scrollbar{
     width: 7px;
     background: dimgrey;
 }
 
-body::-webkit-scrollbar-thumb{
+*::-webkit-scrollbar-thumb{
     background: darkred;
     border-radius: 10px;
 }
 
 /*====================================*/
 
+/* Contenedor */
+
+.contenedor{
+    size: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-inline-end: 25%;
+}
+
+/*====================================*/
+
+/* Caja Izquierda */
+
+.cajaIzquierda{
+    padding-right: 0.5%;
+    max-height: 683px; 
+    margin-top: 6%;
+    margin-left: 4.5%;
+    margin-right: 5%;
+    overflow-y: auto;
+    text-decoration-color: black;
+    color:black;
+}
+
+.cajaIzquierda fieldset{
+    background-color: black;
+}
+
+/*====================================*/
+
 /* Caja principal */
 
-.caja{
+.cajaCentral{
+    margin-top: 6%;
     text-decoration-color: white;
     color:white;
-    margin-left: 25%;
-    margin-right: 25%;
 }
 
 fieldset{
-    size: 960px;
     background-color: white;
     border-style: solid;
     border-color: black;
@@ -172,7 +209,7 @@ fieldset{
 
 .titulo{
     color:black;
-    padding-top: 12%;
+    padding-top: 5%;
     margin-left: 8%;
     font-size: 250%;
 }   
