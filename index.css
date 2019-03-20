@@ -1,4 +1,4 @@
-/* Margenes, fondo y letra */
+/* Margenes, fondo, letra y carga */
 
 *{
     font-family: sans-serif;
@@ -11,6 +11,17 @@ body{
     background-image: url("images/lorenzo-herrera-1383917-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background: url('images/logo.jpg') 50% 50% no-repeat white;
+    background-size: 55%;
 }
 
 /*======================================*/
