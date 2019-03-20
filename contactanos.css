@@ -10,7 +10,7 @@ p{
     margin-bottom: 5%;
 }
 
-html{
+body{
     background-image: url("images/lorenzo-herrera-1383917-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,6 +28,10 @@ html{
 
     fieldset{
         font-size: 50%;
+    }
+    
+    body{
+        background-repeat: round;
     }
 }    
 
