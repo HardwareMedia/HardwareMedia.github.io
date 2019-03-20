@@ -37,9 +37,7 @@ body{
         background-repeat: round;
     }
 
-    .Noticia1correo{
-        font-size: 50%;
-    }
+   
 }    
 
 /*======================================*/
@@ -206,7 +204,7 @@ fieldset{
 
 .Noticia1correo{
     margin-bottom: 10%;
-    font-size: 180%;
+    font-size: 160%;
     color: red;
     font-weight: bold;
     text-align: center;
