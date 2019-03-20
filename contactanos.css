@@ -36,6 +36,10 @@ body{
     body{
         background-repeat: round;
     }
+
+    .Noticia1correo{
+        font-size: 50%;
+    }
 }    
 
 /*======================================*/
