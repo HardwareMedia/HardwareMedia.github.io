@@ -193,10 +193,10 @@ fieldset{
 /* Noticias */
 
 .Noticia1{
-    font-size: 180%;
-    padding: 5% 10% 10% 10%;
+    font-size: 160%;
+    padding: 5% 10% 10% 12%;
     color: black;
-    text-align: center;
+    text-align: left;
 }
 
 .imagenLogoNoticia1{
