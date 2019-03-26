@@ -41,6 +41,10 @@ body{
     body{
         background-repeat: round;
     }
+
+    .separar{
+        font-size: 70%;
+    }
 }    
 
 /*======================================*/
@@ -197,6 +201,10 @@ fieldset{
     padding: 5% 10% 10% 12%;
     color: black;
     text-align: left;
+}
+
+.separar{
+   color:red; 
 }
 
 .imagenLogoNoticia1{
