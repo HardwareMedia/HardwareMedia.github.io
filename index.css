@@ -188,8 +188,8 @@ header{
 
 .cajaIzquierda{
     padding-right: 0.5%;
-    max-height: 683px; 
-    margin-top: 6%;
+    max-height: 746px; 
+    margin-top: 4.5%;
     margin-left: 4.5%;
     margin-right: 5%;
     overflow-y: auto;
@@ -206,7 +206,7 @@ header{
 /* Caja principal */
 
 .cajaCentral{
-    margin-top: 5%;
+    margin-top: 4%;
     text-decoration-color: white;
     color:white;
 }

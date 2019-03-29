@@ -41,6 +41,12 @@ body{
     body{
         background-repeat: round;
     }
+
+    .textoImagen{
+        font-size: 60%;
+    }
+
+    
 }    
 
 /*======================================*/
