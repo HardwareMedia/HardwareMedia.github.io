@@ -9,7 +9,7 @@
 
 body{
     background-image: url("images/lorenzo-herrera-1383917-unsplash.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -36,10 +36,6 @@ body{
 
     fieldset{
         font-size: 50%;
-    }
-
-    body{
-        background-repeat: round;
     }
 }    
 

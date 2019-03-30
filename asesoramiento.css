@@ -9,7 +9,7 @@
 
 body{
     background-image: url("images/lorenzo-herrera-1383917-unsplash.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -36,10 +36,6 @@ body{
 
     fieldset{
         font-size: 50%;
-    }
-    
-    body{
-        background-repeat: round;
     }
 
     .separar{
@@ -203,8 +199,14 @@ fieldset{
     text-align: left;
 }
 
-.separar{
-   color:red; 
+.Noticia1 a{
+    color:blue;
+    text-decoration: none;
+}
+
+.Noticia1 a:hover{
+    font-style: italic;
+    color: red;
 }
 
 .imagenLogoNoticia1{

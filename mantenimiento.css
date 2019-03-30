@@ -9,7 +9,7 @@
 
 body{
     background-image: url("images/lorenzo-herrera-1383917-unsplash.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -34,16 +34,22 @@ body{
         width: 100%;
     }
 
-    fieldset{
-        font-size: 50%;
+    header{
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
-    body{
-        background-repeat: round;
+    .caja{
+        text-decoration-color: white;
+        color:white;
+        margin-left: 0%;
+        margin-right: 0%;
     }
-
+    
+    
     .textoImagen{
         font-size: 60%;
+        
     }
 
 }    
@@ -171,13 +177,14 @@ body::-webkit-scrollbar-thumb{
 
 /* Caja principal */
 
+@media screen and (min-width: 601px){
 .caja{
     text-decoration-color: white;
     color:white;
     margin-left: 25%;
     margin-right: 25%;
 }
-
+}
 fieldset{
     size: 960px;
     background-color: white;
@@ -245,11 +252,11 @@ fieldset{
 .textoImagen{
     float: right;
     margin-top:40%;
-    color: darkred;
+    color: grey;
     text-emphasis: bolder;
     background-color: black;
     border-radius: 12px 12px 12px 12px;
-    padding: 2% 2% 2% 2%;
+    padding: 6px;
 }
 
 
