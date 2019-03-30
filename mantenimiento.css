@@ -40,10 +40,22 @@ body{
     }
 
     .caja{
-        text-decoration-color: white;
+       text-decoration-color: white;
         color:white;
         margin-left: 0%;
         margin-right: 0%;
+    }
+
+    .titulo{
+        color:white;
+    }
+
+    fieldset{
+        background-image: url("images/carl-raw-484203-unsplash.jpg");
+    }
+
+    .Noticia1{
+        background-color: white;
     }
     
     
@@ -183,7 +195,11 @@ body::-webkit-scrollbar-thumb{
     color:white;
     margin-left: 25%;
     margin-right: 25%;
+    }
+.titulo{
+    color:black;
 }
+
 }
 fieldset{
     size: 960px;
@@ -194,7 +210,6 @@ fieldset{
 }
 
 .titulo{
-    color:black;
     padding-top: 12%;
     margin-left: 8%;
     font-size: 250%;
@@ -205,11 +220,10 @@ fieldset{
 /* Noticias */
 
 .subtitulo{
-    margin-top: 5%;
     font-style: italic;
     font-size: 200%;
     text-align: center;
-    margin-bottom: 0%;
+    margin-bottom: 5%;
     font-weight: bold;
     color: darkred;  
 }
