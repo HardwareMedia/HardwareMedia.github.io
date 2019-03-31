@@ -191,8 +191,9 @@ header{
 }
 
 @media screen and (min-width: 601px){
-    .contenedor{
-    padding-inline-end: 25%;
+    .cajaCentral{
+        margin-left: 5%;
+        margin-right: 25%;
     }
 }
 /*====================================*/
@@ -200,11 +201,10 @@ header{
 /* Caja Izquierda */
 
 .cajaIzquierda{
-    max-height: 660px;
-    padding-right: 0.5%;
+    max-height: 1288px;
     margin-top: 6%;
-    margin-left: 4.5%;
-    margin-right: 5%;
+    margin-left: 5%;
+    padding-right: 8.5%;
     overflow-y: scroll;
     text-decoration-color: black;
     color:black;
@@ -229,11 +229,11 @@ fieldset{
 }
 
 .titulo{
+    padding-top: 12%;
     color:white;
     font-family: Comic;
     font-weight: bolder;
     text-shadow: 2px 3px black;
-    padding-top: 12%;
     margin-left: 8%;
     font-size: 250%;
 }   
@@ -246,7 +246,6 @@ fieldset{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2%;
     margin-top: 8%;
 }
 
@@ -265,18 +264,31 @@ fieldset{
     padding: 5% 10% 10% 10%;
     color: black;
     text-align: left;
-    padding-block-end: 8%;
-    padding-block-start: 8%;
-
 }
 
-.imagenObra{
-    width: 60%;
-    margin-top: 8%;
-    margin-bottom: 8%;
+.Noticia1 a{
+    color:blue;
+    text-decoration: none;
+}
+
+.Noticia1 a:hover{
+    font-style: italic;
+    color: red;
+}
+
+.imagenLogoNoticia1{
+    margin: 5% 5% 5% 10%;
+    width: 80%;
+}
+
+.imagen2{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-style: solid;
     border-color: black;
     border-width: 3px;
-    border-radius: 12px 12px 12px 12px;
+    text-align: center;
 }
 /*====================================*/
