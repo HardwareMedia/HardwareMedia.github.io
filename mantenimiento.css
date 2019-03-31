@@ -40,7 +40,7 @@ body{
     }
 
     .caja{
-       text-decoration-color: white;
+        text-decoration-color: white;
         color:white;
         margin-left: 0%;
         margin-right: 0%;
@@ -197,18 +197,15 @@ body::-webkit-scrollbar-thumb{
     font-family: Comic;
     font-weight: bolder;
     text-shadow: 2px 3px black;
-}
+    padding-top: 12%;
+    margin-left: 8%;
+    font-size: 250%;
+} 
 
 fieldset{
     border-width: 0px;
     size: 960px;
-}
-
-.titulo{
-    padding-top: 12%;
-    margin-left: 8%;
-    font-size: 250%;
-}   
+}  
 
 /*====================================*/
 

@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url("images/lorenzo-herrera-1383917-unsplash.jpg");
+    background-image: url("images/carl-raw-484203-unsplash.jpg");
     background-repeat: repeat;
     background-size: cover;
 }
@@ -34,13 +34,32 @@ body{
         width: 100%;
     }
 
-    fieldset{
-        font-size: 50%;
+    header{
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
-    .separar{
-        font-size: 80%;
+    .caja{
+        text-decoration-color: white;
+        color:white;
+        margin-left: 0%;
+        margin-right: 0%;
     }
+
+    fieldset{
+        background-image: url("images/carl-raw-484203-unsplash.jpg");
+    }
+
+    .Noticia1{
+        background-color: white;
+    }
+    
+    
+    .textoImagen{
+        font-size: 60%;
+        
+    }
+
 }    
 
 /*======================================*/
@@ -166,35 +185,41 @@ body::-webkit-scrollbar-thumb{
 
 /* Caja principal */
 
+@media screen and (min-width: 601px){
 .caja{
-    text-decoration-color: white;
-    color:white;
     margin-left: 25%;
     margin-right: 25%;
-}
-
-fieldset{
-    size: 960px;
-    background-color: white;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    }
 }
 
 .titulo{
-    color:black;
+    color:white;
+    font-family: Comic;
+    font-weight: bolder;
+    text-shadow: 2px 3px black;
     padding-top: 12%;
     margin-left: 8%;
     font-size: 250%;
-}   
+} 
+
+fieldset{
+    border-width: 0px;
+    size: 960px;
+}  
 
 /*====================================*/
 
 /* Noticias */
 
 .Noticia1{
+    background-color: white;
+    border-radius: 12px 12px 12px 12px;
+    border-style: solid;
+    border-color: darkred;
+    border-width: 3px;
+    margin: 5% 5% 5% 5%;
     font-size: 140%;
-    padding: 5% 10% 10% 12%;
+    padding: 5% 10% 10% 10%;
     color: black;
     text-align: left;
 }
