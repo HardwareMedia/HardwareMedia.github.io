@@ -178,6 +178,10 @@ header{
     border-radius: 10px;
 }
 
+.cajaIzquierda::-webkit-scrollbar{
+    display: none;
+}
+
 /*====================================*/
 
 /* Contenedor */
@@ -201,16 +205,17 @@ header{
 /* Caja Izquierda */
 
 .cajaIzquierda{
-    max-height: 1288px;
     margin-top: 6%;
     margin-left: 5%;
     padding-right: 8.5%;
     overflow-y: scroll;
     text-decoration-color: black;
     color:black;
+    max-height: 1480px;
 }
 
 .cajaIzquierda fieldset{
+    size: 960px;
     background-color: black;
 }
 
