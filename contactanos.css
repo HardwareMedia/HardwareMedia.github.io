@@ -60,6 +60,21 @@ body{
         
     }
 
+    .twitter{
+        visibility: hidden;
+    }
+
+    .imagenLogo{
+        visibility: hidden;
+    }
+
+    .casita{
+        display: block;
+        float: left;
+        width: 4.5%;
+        margin-left: 0.5%;   
+    }
+
 }    
 
 /*======================================*/
@@ -193,6 +208,10 @@ body::-webkit-scrollbar-thumb{
 .Noticia1correo{
     font-size: 120%;
 }    
+
+.casita{
+    display: none;
+}
 }
 
 .titulo{

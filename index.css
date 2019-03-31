@@ -57,6 +57,21 @@ body{
     .Noticia1{
         background-color: white;
     }
+
+    .twitter{
+        visibility: hidden;
+    }
+
+    .imagenLogo{
+        visibility: hidden;
+    }
+
+    .casita{
+        display: block;
+        float: left;
+        width: 4.5%;
+        margin-left: 0.5%;   
+    }
 }    
 
 /*======================================*/
@@ -198,6 +213,10 @@ header{
     .cajaCentral{
         margin-left: 5%;
         margin-right: 25%;
+    }
+
+    .casita{
+        display: none;
     }
 }
 /*====================================*/

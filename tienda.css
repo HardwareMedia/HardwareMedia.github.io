@@ -53,6 +53,21 @@ body{
     .Noticia1{
         background-color: white;
     }
+
+    .twitter{
+        visibility: hidden;
+    }
+
+    .imagenLogo{
+        visibility: hidden;
+    }
+
+    .casita{
+        display: block;
+        float: left;
+        width: 4.5%;
+        margin-left: 0.5%;   
+    }
 }    
 
 /*======================================*/
@@ -182,6 +197,10 @@ body::-webkit-scrollbar-thumb{
 .caja{
     margin-left: 25%;
     margin-right: 25%;
+    }
+
+    .casita{
+        display: none;
     }
 }
 
