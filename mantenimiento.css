@@ -265,13 +265,13 @@ fieldset{
 }
 
 .Noticia1 a{
-    color:blue;
+    color:red;
     text-decoration: none;
 }
 
 .Noticia1 a:hover{
     font-style: italic;
-    color: red;
+    color: blue;
 }
 
 .textoImagen{

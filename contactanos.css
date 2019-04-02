@@ -207,7 +207,11 @@ body::-webkit-scrollbar-thumb{
     }
 .Noticia1correo{
     font-size: 120%;
-}    
+}
+
+.Noticia1correo a{
+    font-size: 120%;
+}
 
 .casita{
     display: none;
@@ -256,6 +260,19 @@ fieldset{
     color: red;
     font-weight: bold;
     text-align: center;
+}
+
+.Noticia1correo a{
+    font-size: 100%;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Noticia1correo a:hover{
+    color: blue;
+    font-style: italic;
 }
 
 
