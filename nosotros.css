@@ -240,5 +240,17 @@ fieldset{
     margin: 5% 5% 5% 10%;
     width: 80%;
 }
+
+.imagenNoticia1{
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+
 /*====================================*/
 
