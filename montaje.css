@@ -254,15 +254,6 @@ fieldset{
 .imagenLogoNoticia1 {
     display: inline;
 }
-.imagenLogoNoticia1 img{
-    width: 100%;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    border-radius: 12px 12px 12px 12px;
-}
 
 .Noticia1 a{
     color:red;
