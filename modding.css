@@ -80,7 +80,6 @@ body{
     margin-inline-end: 3%;
     margin-left: 0.5%; 
     margin-top: 0.8%;
-    margin-right: 6%;  
 }
 
 header{
@@ -201,6 +200,9 @@ body::-webkit-scrollbar-thumb{
 
     .casita{
         display: none;
+    }
+    .imagenLogo{
+        margin-right: 6%; 
     }
 }
 

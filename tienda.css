@@ -85,8 +85,7 @@ body{
     width: 10%;
     margin-inline-end: 3%;
     margin-left: 0.5%; 
-    margin-top: 0.8%;
-    margin-right: 6%;  
+    margin-top: 0.8%;  
 }
 
 header{
@@ -211,6 +210,9 @@ body::-webkit-scrollbar-thumb{
 
     .indice li{
         display: inline;
+    }
+    .imagenLogo{
+        margin-right: 6%; 
     }
 }
 
