@@ -59,14 +59,15 @@ body{
     }
 
     .imagenLogo{
-        visibility: hidden;
+        display: none;
     }
 
     .casita{
         display: block;
         float: left;
         width: 4.5%;
-        margin-left: 0.5%;   
+        margin-left: 7%;
+        margin-right: 5%;   
     }
 }    
 
@@ -202,6 +203,7 @@ body::-webkit-scrollbar-thumb{
         display: none;
     }
     .imagenLogo{
+        display: block;
         margin-right: 6%; 
     }
 }
