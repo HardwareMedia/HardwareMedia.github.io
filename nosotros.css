@@ -240,6 +240,16 @@ fieldset{
     text-align: left;
 }
 
+.Noticia1 a{
+    color:red;
+    text-decoration: none;
+}
+
+.Noticia1 a:hover{
+    font-style: italic;
+    color: blue;
+}
+
 .imagenLogoNoticia1{
     margin: 5% 5% 5% 10%;
     width: 80%;
