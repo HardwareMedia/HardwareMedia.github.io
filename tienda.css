@@ -248,6 +248,9 @@ fieldset{
     font-size: 110%;
     font-weight: bold;
     text-align: center;
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .indice a{
@@ -308,6 +311,11 @@ fieldset{
 }
 
 .imagenNoticia1 img{
+    width: 100%;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.imagenNoticia1 video{
     width: 100%;
     border-radius: 12px 12px 12px 12px;
 }
