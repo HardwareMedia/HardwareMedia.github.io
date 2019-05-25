@@ -19,37 +19,9 @@
                     </script>
         </div>
         
-    <header>
-            <a href="index.html"><img class="imagenLogo" src="images/logo.jpg"
-       alt="HardwareMedia"></a>
-       <a href="index.html"><img class="casita" src="images/casa.png" alt="Inicio"></a>
-       
-       <nav class="barraSuperior">
-        <ul>
-            <li><a href="#">Noticias</a>
-                <ul>
-                    <li><a href="juegos.html">Videojuegos</a></li>
-                    <li><a href="hardware.html">Hardware</a></li>
-                </ul></li>
-            <li><a href="#">PC</a>
-                <ul>
-                    <li><a href="mantenimiento.html">Mantenimiento</a></li>
-                    <li><a href="montaje.html">Montaje</a></li>
-                    <li><a href="modding.html">Modding</a></li>
-                    </ul></li>
-            <li><a href="#">Información</a>
-                <ul>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="contactanos.html">Contáctanos</a></li>
-                    <li><a href="proyectos.html">Proyectos</a></li>
-                    <li><a href="asesoramiento.html">Asesoramiento</a></li>
-                </ul></li>
-            <li><a href="tienda.html">Tienda</a></li>    
-            <li><a href="https://twitter.com/hardwaremedia_?lang=es" target="_blank"><img class="twitter" src="images/twitter icon.png"></a></li>
-            <li><a href="https://www.instagram.com/hardwaremedia_/?hl=es" target="_blank"><img class="twitter" src="images/instagram.png"></a></li>
-        </ul>
-    </nav>          
-    </header>
+    <?php
+       include_once("includes/header.php"); 
+    ?>
 
 <div class="caja">
 <main>
@@ -81,7 +53,7 @@
             <img src="images/despues1.jpg" alt="despues"><span class="textoImagen">DESPUES</span></div> 
             <br>
             Para que dejemos su ordenador como nuevo <span style="color:darkred; font-weight: bold;">por 
-            solo 20€</span> contacte con nosotros <a href="contactanos.html">clicando aquí</a>.
+            solo 20€</span> contacte con nosotros <a href="contactanos.php">clicando aquí</a>.
         </div>
 
         <a name="Actualizacion" style="visibility: hidden;">1</a>
@@ -97,10 +69,10 @@
         <br> 
         Ponemos de ejemplo un portátil al que le cambiamos la ssd, ram y el teclado, le realizamos un formateo y limpieza completos y arreglamos todos los desperfectos:<br>
         <div class="imagenLogoNoticia1"><img style="width: 100%;" src="images/ordenadorActualizado1.jpeg"></div><br>
-        Para que realizemos una actualización de su ordenador (no mas de un 30% de los componentes de su PC o portátil) solo contacte con nosotros <a href="contactanos.html">clicando aquí</a>.<br>
+        Para que realizemos una actualización de su ordenador (no mas de un 30% de los componentes de su PC o portátil) solo contacte con nosotros <a href="contactanos.php">clicando aquí</a>.<br>
         <br>
         Si lo que necesita es una actualización de componentes más a fondo quizas debería pasarse 
-        por nuestra sección de <a href="montaje.html">montaje</a>.
+        por nuestra sección de <a href="montaje.php">montaje</a>.
 
 
 

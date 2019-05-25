@@ -19,37 +19,9 @@
                     </script>
         </div>
         
-    <header>
-            <a href="index.html"><img class="imagenLogo" src="images/logo.jpg"
-       alt="HardwareMedia"></a>
-       <a href="index.html"><img class="casita" src="images/casa.png" alt="Inicio"></a>
-       
-       <nav class="barraSuperior">
-        <ul>
-            <li><a href="#">Noticias</a>
-                <ul>
-                    <li><a href="juegos.html">Videojuegos</a></li>
-                    <li><a href="hardware.html">Hardware</a></li>
-                </ul></li>
-            <li><a href="#">PC</a>
-                <ul>
-                    <li><a href="mantenimiento.html">Mantenimiento</a></li>
-                    <li><a href="montaje.html">Montaje</a></li>
-                    <li><a href="modding.html">Modding</a></li>
-                    </ul></li>
-            <li><a href="#">Información</a>
-                <ul>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="contactanos.html">Contáctanos</a></li>
-                    <li><a href="proyectos.html">Proyectos</a></li>
-                    <li><a href="asesoramiento.html">Asesoramiento</a></li>
-                </ul></li>
-            <li><a href="tienda.html">Tienda</a></li>    
-            <li><a href="https://twitter.com/hardwaremedia_?lang=es" target="_blank"><img class="twitter" src="images/twitter icon.png"></a></li>
-            <li><a href="https://www.instagram.com/hardwaremedia_/?hl=es" target="_blank"><img class="twitter" src="images/instagram.png"></a></li>  
-        </ul>
-    </nav>    
-    </header>
+    <?php
+       include_once("includes/header.php"); 
+    ?>
 
 <div class="caja">
 <main>
